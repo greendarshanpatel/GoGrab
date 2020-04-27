@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F2E68782446F72100C0EFAD /* itemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2E68772446F72100C0EFAD /* itemViewController.swift */; };
+		3F2E687A2447009100C0EFAD /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2E68792447009100C0EFAD /* Cart.swift */; };
+		3F2E687C244702FE00C0EFAD /* order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2E687B244702FE00C0EFAD /* order.swift */; };
+		3F2E687E244706ED00C0EFAD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2E687D244706ED00C0EFAD /* LoginViewController.swift */; };
+		3F2E68802447070400C0EFAD /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2E687F2447070400C0EFAD /* Validator.swift */; };
+		3F2E68822447146A00C0EFAD /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2E68812447146A00C0EFAD /* SignUpViewController.swift */; };
+		3F2E68842447602800C0EFAD /* cartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2E68832447602800C0EFAD /* cartViewController.swift */; };
+		3F2E688924478BD000C0EFAD /* OrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2E688824478BD000C0EFAD /* OrdersViewController.swift */; };
+		3F2E688B244792B500C0EFAD /* OrdersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2E688A244792B500C0EFAD /* OrdersTableViewCell.swift */; };
+		3F977C9E244673A10060E82E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F977C9D244673A10060E82E /* AppDelegate.swift */; };
+		3F977CA0244673A10060E82E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F977C9F244673A10060E82E /* SceneDelegate.swift */; };
+		3F977CA5244673A10060E82E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F977CA3244673A10060E82E /* Main.storyboard */; };
+		3F977CA8244673A10060E82E /* GoGrab.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F977CA6244673A10060E82E /* GoGrab.xcdatamodeld */; };
+		3F977CAA244673A50060E82E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F977CA9244673A50060E82E /* Assets.xcassets */; };
+		3F977CAD244673A50060E82E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F977CAB244673A50060E82E /* LaunchScreen.storyboard */; };
+		3F977CD224468E2A0060E82E /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F977CD124468E2A0060E82E /* Item.swift */; };
+		3F977CD424468E5F0060E82E /* itemType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F977CD324468E5F0060E82E /* itemType.swift */; };
+		3F977CD624468E730060E82E /* store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F977CD524468E730060E82E /* store.swift */; };
+		3F977CD824468EAF0060E82E /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F977CD724468EAF0060E82E /* user.swift */; };
+		3F977CDB244690A10060E82E /* DummyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F977CDA244690A10060E82E /* DummyData.swift */; };
+		3F977CDD2446AC760060E82E /* DataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F977CDC2446AC760060E82E /* DataServices.swift */; };
+		3F977CDF2446BB5F0060E82E /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F977CDE2446BB5F0060E82E /* ItemsViewController.swift */; };
+		3F977CE12446BC6F0060E82E /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F977CE02446BC6F0060E82E /* ItemTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F2E68772446F72100C0EFAD /* itemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemViewController.swift; sourceTree = "<group>"; };
+		3F2E68792447009100C0EFAD /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		3F2E687B244702FE00C0EFAD /* order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = order.swift; sourceTree = "<group>"; };
+		3F2E687D244706ED00C0EFAD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3F2E687F2447070400C0EFAD /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		3F2E68812447146A00C0EFAD /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		3F2E68832447602800C0EFAD /* cartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cartViewController.swift; sourceTree = "<group>"; };
+		3F2E688824478BD000C0EFAD /* OrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersViewController.swift; sourceTree = "<group>"; };
+		3F2E688A244792B500C0EFAD /* OrdersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersTableViewCell.swift; sourceTree = "<group>"; };
+		3F977C9A244673A10060E82E /* GoGrab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = GoGrab.app; path = "/Users/darshan/Downloads/old stuff/documents/Capstone/final/final/build/Debug-iphoneos/GoGrab.app"; sourceTree = "<absolute>"; };
+		3F977C9D244673A10060E82E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F977C9F244673A10060E82E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3F977CA4244673A10060E82E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F977CA7244673A10060E82E /* GoGrab.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoGrab.xcdatamodel; sourceTree = "<group>"; };
+		3F977CA9244673A50060E82E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F977CAC244673A50060E82E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F977CAE244673A50060E82E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F977CD124468E2A0060E82E /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		3F977CD324468E5F0060E82E /* itemType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemType.swift; sourceTree = "<group>"; };
+		3F977CD524468E730060E82E /* store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = store.swift; sourceTree = "<group>"; };
+		3F977CD724468EAF0060E82E /* user.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
+		3F977CDA244690A10060E82E /* DummyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyData.swift; sourceTree = "<group>"; };
+		3F977CDC2446AC760060E82E /* DataServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataServices.swift; sourceTree = "<group>"; };
+		3F977CDE2446BB5F0060E82E /* ItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
+		3F977CE02446BC6F0060E82E /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F977C97244673A10060E82E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F2E68872447739B00C0EFAD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3F977CDE2446BB5F0060E82E /* ItemsViewController.swift */,
+				3F2E68772446F72100C0EFAD /* itemViewController.swift */,
+				3F977CE02446BC6F0060E82E /* ItemTableViewCell.swift */,
+				3F2E688A244792B500C0EFAD /* OrdersTableViewCell.swift */,
+				3F2E687D244706ED00C0EFAD /* LoginViewController.swift */,
+				3F2E68812447146A00C0EFAD /* SignUpViewController.swift */,
+				3F2E68832447602800C0EFAD /* cartViewController.swift */,
+				3F2E688824478BD000C0EFAD /* OrdersViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3F977C91244673A10060E82E = {
+			isa = PBXGroup;
+			children = (
+				3F977C9C244673A10060E82E /* GoGrab */,
+			);
+			sourceTree = "<group>";
+		};
+		3F977C9C244673A10060E82E /* GoGrab */ = {
+			isa = PBXGroup;
+			children = (
+				3F977C9D244673A10060E82E /* AppDelegate.swift */,
+				3F977C9F244673A10060E82E /* SceneDelegate.swift */,
+				3F977CA3244673A10060E82E /* Main.storyboard */,
+				3F977CA9244673A50060E82E /* Assets.xcassets */,
+				3F977CAB244673A50060E82E /* LaunchScreen.storyboard */,
+				3F977CAE244673A50060E82E /* Info.plist */,
+				3F2E68872447739B00C0EFAD /* Controllers */,
+				3F977CD92446905F0060E82E /* Model */,
+				3F977CA6244673A10060E82E /* GoGrab.xcdatamodeld */,
+			);
+			path = GoGrab;
+			sourceTree = "<group>";
+		};
+		3F977CD92446905F0060E82E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3F977CD524468E730060E82E /* store.swift */,
+				3F977CD324468E5F0060E82E /* itemType.swift */,
+				3F977CD124468E2A0060E82E /* Item.swift */,
+				3F2E68792447009100C0EFAD /* Cart.swift */,
+				3F977CD724468EAF0060E82E /* user.swift */,
+				3F2E687F2447070400C0EFAD /* Validator.swift */,
+				3F2E687B244702FE00C0EFAD /* order.swift */,
+				3F977CDA244690A10060E82E /* DummyData.swift */,
+				3F977CDC2446AC760060E82E /* DataServices.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F977C99244673A10060E82E /* GoGrab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F977CC7244673A50060E82E /* Build configuration list for PBXNativeTarget "GoGrab" */;
+			buildPhases = (
+				3F977C96244673A10060E82E /* Sources */,
+				3F977C97244673A10060E82E /* Frameworks */,
+				3F977C98244673A10060E82E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoGrab;
+			productName = GoGrab;
+			productReference = 3F977C9A244673A10060E82E /* GoGrab.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F977C92244673A10060E82E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = GoGrabing;
+				TargetAttributes = {
+					3F977C99244673A10060E82E = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 3F977C95244673A10060E82E /* Build configuration list for PBXProject "GoGrab" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F977C91244673A10060E82E;
+			productRefGroup = 3F977C91244673A10060E82E;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F977C99244673A10060E82E /* GoGrab */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F977C98244673A10060E82E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F977CAD244673A50060E82E /* LaunchScreen.storyboard in Resources */,
+				3F977CAA244673A50060E82E /* Assets.xcassets in Resources */,
+				3F977CA5244673A10060E82E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F977C96244673A10060E82E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F977CD224468E2A0060E82E /* Item.swift in Sources */,
+				3F2E687A2447009100C0EFAD /* Cart.swift in Sources */,
+				3F977CA8244673A10060E82E /* GoGrab.xcdatamodeld in Sources */,
+				3F977CDB244690A10060E82E /* DummyData.swift in Sources */,
+				3F977CE12446BC6F0060E82E /* ItemTableViewCell.swift in Sources */,
+				3F2E68822447146A00C0EFAD /* SignUpViewController.swift in Sources */,
+				3F2E687C244702FE00C0EFAD /* order.swift in Sources */,
+				3F977CD624468E730060E82E /* store.swift in Sources */,
+				3F977CDD2446AC760060E82E /* DataServices.swift in Sources */,
+				3F977CDF2446BB5F0060E82E /* ItemsViewController.swift in Sources */,
+				3F2E68782446F72100C0EFAD /* itemViewController.swift in Sources */,
+				3F977CD824468EAF0060E82E /* user.swift in Sources */,
+				3F2E68802447070400C0EFAD /* Validator.swift in Sources */,
+				3F2E687E244706ED00C0EFAD /* LoginViewController.swift in Sources */,
+				3F2E688924478BD000C0EFAD /* OrdersViewController.swift in Sources */,
+				3F2E688B244792B500C0EFAD /* OrdersTableViewCell.swift in Sources */,
+				3F977C9E244673A10060E82E /* AppDelegate.swift in Sources */,
+				3F977CD424468E5F0060E82E /* itemType.swift in Sources */,
+				3F2E68842447602800C0EFAD /* cartViewController.swift in Sources */,
+				3F977CA0244673A10060E82E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F977CA3244673A10060E82E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F977CA4244673A10060E82E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F977CAB244673A50060E82E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F977CAC244673A50060E82E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F977CC5244673A50060E82E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F977CC6244673A50060E82E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F977CC8244673A50060E82E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58JZ3RD5UX;
+				INFOPLIST_FILE = GoGrab/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GOGrabing.GoGrab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F977CC9244673A50060E82E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58JZ3RD5UX;
+				INFOPLIST_FILE = GoGrab/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GOGrabing.GoGrab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F977C95244673A10060E82E /* Build configuration list for PBXProject "GoGrab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F977CC5244673A50060E82E /* Debug */,
+				3F977CC6244673A50060E82E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F977CC7244673A50060E82E /* Build configuration list for PBXNativeTarget "GoGrab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F977CC8244673A50060E82E /* Debug */,
+				3F977CC9244673A50060E82E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3F977CA6244673A10060E82E /* GoGrab.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3F977CA7244673A10060E82E /* GoGrab.xcdatamodel */,
+			);
+			currentVersion = 3F977CA7244673A10060E82E /* GoGrab.xcdatamodel */;
+			path = GoGrab.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3F977C92244673A10060E82E /* Project object */;
+}
